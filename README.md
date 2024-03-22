@@ -1,6 +1,6 @@
 # nghinv_device_info
 
-A new Flutter plugin project for get device info.
+A plugin for get device info. Support Android, iOS, Web.
 
 ## Getting Started
 
