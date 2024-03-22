@@ -17,6 +17,7 @@ void main() async {
   final deviceInfo = await NDeviceInfo().getDeviceInfo();
   print('Device info: $deviceInfo');
 }
+```
 
 ## Properties
 
