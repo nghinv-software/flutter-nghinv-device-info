@@ -1,6 +1,6 @@
 name: nghinv_device_info
 description: A plugin for get device info. Support Android, iOS, Linux, MacOS, Windows, Web.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/nghinv-software/flutter-nghinv-device-info
 maintainer: nghinv (@Nghi-NV)
 
@@ -14,6 +14,11 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
+
+  ffi: ^2.0.1
+  # win32 is compatible across v4 and v5 for Win32 only (not COM)
+  win32: ">=4.0.0 <6.0.0"
+  win32_registry: ^1.1.0
 
 dev_dependencies:
   flutter_test:
@@ -34,6 +39,7 @@ flutter:
         pluginClass: NDeviceInfoPlugin
       windows:
         pluginClass: NDeviceInfoPluginCApi
+        fileName: nghinv_device_info_windows.dart
       web:
         pluginClass: NDeviceInfoWeb
         fileName: nghinv_device_info_web.dart
