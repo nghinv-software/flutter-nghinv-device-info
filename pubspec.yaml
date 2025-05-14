@@ -1,6 +1,6 @@
 name: nghinv_device_info
 description: A plugin for get device info. Support Android, iOS, Linux, MacOS, Windows, Web.
-version: 0.1.0
+version: 0.2.0
 homepage: https://github.com/nghinv-software/flutter-nghinv-device-info
 maintainer: nghinv (@Nghi-NV)
 
